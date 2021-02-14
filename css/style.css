@@ -1,0 +1,68 @@
+body {
+    padding-left: 15vw;
+    padding-right: 15vw;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    background-color: rgb(255, 199, 254);
+    font-family: "Open Sans", "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.title {
+    background-color: rgb(50, 50, 50);
+    text-align: center;
+    color: rgb(255, 240, 240);
+    font-family: "Rubik", "Lucida Sans Unicode", sans-serif;
+    font-size: 1.3em;
+    font-weight: 300;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px 1px rgba(50, 50, 50, 0.5);
+}
+
+h1 {
+    font-weight: 400;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.flavor {
+    text-align: center;
+    font-style: italic;
+    color: #505050;
+    font-size: 0.9em;
+}
+
+.puzzle-content {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+    background-color: rgba(255, 255, 255, 0.7);
+    font-size: 1.2em;
+    border-radius: 10px;
+    box-shadow: 0 12px 20px 1px rgba(50, 50, 50, 0.5);
+}
+
+.centered {
+    text-align:center
+}
+
+.index-table {
+    display:flex;
+    flex: 1 500px;
+    align-items:center;
+    justify-content:space-around
+}
+
+.index-table a:hover{
+    text-shadow: 0px 2px 10px rgba(50, 50, 50, 0.5);
+}
+
+td {
+    table-layout: fixed;
+    width:150px;
+    padding: 20px;
+    text-align:center;
+}
+
+
